@@ -462,3 +462,8 @@ register(
     entry_point='gym.envs.safety:OffSwitchCartpoleProbEnv',
     timestep_limit=200,
 )
+
+register(
+    id='RealisticRendering-v0',
+    entry_point='gym.envs.unrealcv:ToyEnv',
+)
